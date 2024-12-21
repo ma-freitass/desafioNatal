@@ -21,19 +21,26 @@ import bola from "../assets/bola.png"
 
 
 section{
+  width: 90vw;
   font-family: "Archivo", sans-serif;
   padding: 60px 55px;
   background: #F9F9F9;
   display: flex;
   align-items: center;
   justify-content: center;
-  div{
-    border: 1px solid #000;
-    margin: 40px;
-  }
+ 
 }
+img{
+  padding: 20px;
+  margin-left: 200px;
+}
+div{
+    margin:160px;
+    padding: 20px;
+  }
 
 h1{
+  width: 38vw;
   font-weight: 600;
   font-size: 40px;
   span{
@@ -44,9 +51,10 @@ p{
   display: flex;
   font-weight: 400;
   font-size: 20px;
+  line-height: 30px;
   text-align: justify;
   color: #121214;
-  width: 20vw;
+  width: 35vw;
   height: 30vh;
 }
 button{
@@ -56,7 +64,7 @@ button{
   gap: 8px;
   border-radius: 2px;
   border-style: none;
-
+  margin-top: 0;
 }
 
 </style>
