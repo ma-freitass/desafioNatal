@@ -1,7 +1,7 @@
 <script setup>
 //lógica
 import Inicio from "./components/Inicio.vue";
-import Cronometro from "./components/Cronometro.vue";
+import Cronometro from "./components/cronometro.vue";
 import Final from "./components/Final.vue";
 import Footer from "./components/Footer.vue";
 
